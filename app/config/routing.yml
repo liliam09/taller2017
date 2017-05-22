@@ -1,0 +1,13 @@
+espectaculos:
+    resource: "@EspectaculosBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+untdf_blog:
+    resource: "@UntdfBlogBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
